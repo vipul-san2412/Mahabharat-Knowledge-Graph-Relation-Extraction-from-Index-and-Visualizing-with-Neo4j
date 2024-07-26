@@ -24,7 +24,7 @@ The project aims to build a knowledge graph representing the family relations de
   - `Codes/`: ipynb notebooks for dependency parsing and extracting relations out of them using DIA Parser. Relations include \[daughter, mother, sister, brother, father, son]
 - `Evaluation/`: Precision and accuracy metrics, along with detailed evaluation reports. REBEL results were evaluated against 150 manually labelled relations.
 - `Relations/`: Relations extracted from the REBEL model.
-Rest are the notebooks for text cleaning, extracting relations using REBEL model, Transliterating the text from ISO15919 to Latin, Automating the process of feeding the triplets to Neo4j and generating the knowledge graph.
+- Rest are the notebooks for text cleaning, extracting relations using REBEL model, Transliterating the text from ISO15919 to Latin, Automating the process of feeding the triplets to Neo4j and generating the knowledge graph.
 
 ### Prerequisites
 
