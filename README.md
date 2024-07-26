@@ -20,8 +20,8 @@ The project aims to build a knowledge graph representing the family relations de
 
 ## Repository Structure
 
-- `src/`
-  - `parsing/`: Scripts for dependency parsing using DIA Parser.
+- `Dependency Rels/`
+  - `Codes/`: ipynb notebooks for dependency parsing and extracting relations out of them using DIA Parser. Relations include \[daughter, mother, sister, brother, father, son]
   - `relation_extraction/`: Scripts for extracting relations using the REBEL model.
   - `transliteration/`: Python script for transliteration of Mahabharata text.
   - `neo4j/`: Scripts for generating and executing Cypher queries for Neo4j.
@@ -38,9 +38,3 @@ The project aims to build a knowledge graph representing the family relations de
 - DIA Parser
 - REBEL Model
 
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/mahabharat-knowledge-graph.git
-   cd mahabharat-knowledge-graph
