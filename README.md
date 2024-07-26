@@ -20,16 +20,11 @@ The project aims to build a knowledge graph representing the family relations de
 
 ## Repository Structure
 
-- `Dependency Rels/`
+- `Dependency Rels/`: Contains pickle file of relations extracted from parsing.
   - `Codes/`: ipynb notebooks for dependency parsing and extracting relations out of them using DIA Parser. Relations include \[daughter, mother, sister, brother, father, son]
-  - `relation_extraction/`: Scripts for extracting relations using the REBEL model.
-  - `transliteration/`: Python script for transliteration of Mahabharata text.
-  - `neo4j/`: Scripts for generating and executing Cypher queries for Neo4j.
-- `data/`: Contains sample data and manually labeled relations.
-- `notebooks/`: Jupyter notebooks for exploratory data analysis and visualization.
-- `results/`: Precision and recall metrics, along with detailed evaluation reports.
-
-## Getting Started
+- `Evaluation/`: Precision and accuracy metrics, along with detailed evaluation reports. REBEL results were evaluated against 150 manually labelled relations.
+- `Relations/`: Relations extracted from the REBEL model.
+Rest are the notebooks for text cleaning, extracting relations using REBEL model, Transliterating the text from ISO15919 to Latin, Automating the process of feeding the triplets to Neo4j and generating the knowledge graph.
 
 ### Prerequisites
 
